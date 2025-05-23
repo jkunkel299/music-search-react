@@ -4,7 +4,7 @@ import HomeCard from "@/app/ui/home-card";
 export default function Home() {
   return (
     <div>
-      <h1 className="font-bold font-sans text-4xl text-center">Music Search Tool</h1>
+      <h1 className="font-bold text-4xl text-center">Music Search Tool</h1>
       <div className="container flex flex-wrap justify-center-safe p-6 gap-4">
         <HomeCard 
           title="Search for an Artist"

@@ -1,3 +1,9 @@
+import Search from "@/app/ui/search-bar"
+
 export default function Page(){
-    return <p>Song search</p>
+    return (
+        <div>
+            <Search type="song" action="/songSearch" />
+        </div>
+    )
 }
